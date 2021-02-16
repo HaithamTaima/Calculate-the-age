@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Day"
+        android:layout_marginTop="100dp"
+        android:id="@+id/et_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date" />
+
+    <EditText
+        android:gravity="center"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="month"
+        android:layout_marginTop="40dp"
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:gravity="center"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="yers"
+        android:layout_marginTop="40dp"
+
+        android:id="@+id/et_number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="old" />
+
+    <Button
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="100dp"
+
+        android:id="@+id/bt_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sum" />
+</LinearLayout>
